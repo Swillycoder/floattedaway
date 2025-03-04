@@ -4,22 +4,22 @@ const ctx = canvas.getContext('2d');
 canvas.width = 550;
 canvas.height = 600;
 
-const lullaby = new Audio('audio/lullaby.mp3');
-const music = new Audio('audio/happyshort.mp3');
-const splat = new Audio('audio/splat.ogg');
-const starCollect = new Audio('audio/coinshort.ogg');
+const lullaby = new Audio('https://raw.githubusercontent.com/Swillycoder/floattedaway/main/lullaby.mp3');
+const music = new Audio('https://raw.githubusercontent.com/Swillycoder/floattedaway/main/happyshort.mp3');
+const splat = new Audio('https://raw.githubusercontent.com/Swillycoder/floattedaway/main/splat.ogg');
+const starCollect = new Audio('https://raw.githubusercontent.com/Swillycoder/floattedaway/main/coinshort.ogg');
 
 music.volume = 0.3
 
 const images = {
-    bear: 'http://localhost:8000/bearballoonsml.png',
-    bg_img: 'http://localhost:8000/bg.png',
-    snowball: 'http://localhost:8000/snowball.png',
-    intro: 'http://localhost:8000/intro.png',
-    gameOverBg: 'http://localhost:8000/gameover.png',
-    star: 'http://localhost:8000/star.png',
-    bearsml: 'http://localhost:8000/bearsml.png',
-    winner: 'http://localhost:8000/moonshot.png',
+    bear: 'https://raw.githubusercontent.com/Swillycoder/floattedaway/main/bearballoonsml.png',
+    bg_img: 'https://raw.githubusercontent.com/Swillycoder/floattedaway/main/bg.png',
+    snowball: 'https://raw.githubusercontent.com/Swillycoder/floattedaway/main/snowball.png',
+    intro: 'https://raw.githubusercontent.com/Swillycoder/floattedaway/main/intro.png',
+    gameOverBg: 'https://raw.githubusercontent.com/Swillycoder/floattedaway/main/gameover.png',
+    star: 'https://raw.githubusercontent.com/Swillycoder/floattedaway/main/star.png',
+    bearsml: 'https://raw.githubusercontent.com/Swillycoder/floattedaway/main/bearsml.png',
+    winner: 'https://raw.githubusercontent.com/Swillycoder/floattedaway/main/moonshot.png',
 };
 
 const loadImage = (src) => {
